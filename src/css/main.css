@@ -32,6 +32,21 @@ body {
   font-size: 5vh;
   text-align: center;
   color: #ffffff;
+  animation: text-ans 4s linear;
+}
+@-webkit-keyframes text-ans {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(30%);
+  }
+  70% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 .night {
